@@ -44,5 +44,4 @@ public class Day2TutorialInsurance {
             }
         return userPolicy;
     }
-
 }
