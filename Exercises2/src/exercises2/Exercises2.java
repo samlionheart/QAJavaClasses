@@ -12,6 +12,7 @@ public class Exercises2 {
     public static void main(String[] args) {
         //cylinderVolume();
         //costOfDriving();
+        investment();
     }
 
     private static void cylinderVolume() {
@@ -62,8 +63,11 @@ public class Exercises2 {
         
         double total;
         
-        total = investmentAmount*Math.pow((1 + monthlyInvestmentRate), (numberOfYears*12));
+        total = investmentAmount*Math.pow((1 + (monthlyInvestmentRate/12)), (numberOfYears*12));
         
         System.out.print("Accumulated value is $" + total);
+    }
+    private static void assignGrades() {
+        
     }
 }
