@@ -43,16 +43,10 @@
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Component id="customerAge" min="-2" pref="152" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="customerPremium" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="calculatePremiumButton" max="32767" attributes="0"/>
-                                  <Component id="customerNoClaims" pref="152" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="customerPremium" min="-2" max="-2" attributes="0"/>
+                          <Component id="calculatePremiumButton" min="-2" pref="152" max="-2" attributes="0"/>
+                          <Component id="customerNoClaims" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -81,15 +75,12 @@
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="customerNoClaims" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="customerNoClaims" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="calculatePremiumButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="customerPremium" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="36" max="32767" attributes="0"/>
+              <EmptySpace pref="63" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -116,13 +107,6 @@
         <Property name="text" type="java.lang.String" value="Engine size"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="customerNoClaims">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="No Claims"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -140,6 +124,11 @@
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="customerPremium">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="customerNoClaims">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No Claims"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

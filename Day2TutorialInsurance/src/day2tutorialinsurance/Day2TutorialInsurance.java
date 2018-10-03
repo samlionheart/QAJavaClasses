@@ -22,26 +22,24 @@ public class Day2TutorialInsurance {
         double policy1 = InsuranceConstants.BASE_PREMIUM_1 * InsuranceConstants.PREMIUM_FACTOR_1;
         double policy2 = InsuranceConstants.BASE_PREMIUM_2 * InsuranceConstants.PREMIUM_FACTOR_2;
         double policy3 = InsuranceConstants.BASE_PREMIUM_3 * InsuranceConstants.PREMIUM_FACTOR_3;
-        double userPolicy=0;
-        if (age > 25){
-            if (gender == 'f'){
-                if (engineSize <= 800){
-                    if (hasNoClaims){
+        double userPolicy;
+        if (age > 25)  {
+            if (gender == 'f') {
+                if (engineSize <= 800) {
+                    if (hasNoClaims) {
                         userPolicy = policy1;
-                    }
-                    else {
+                    } else {
                         userPolicy = policy2;
                     }
-                }else{
+                } else {
                     userPolicy = policy2;
                 }
-            }
-            else {
+            } else {
                 userPolicy = policy3;
             }
-        }else {
-                userPolicy = policy3;
-            }
-        return userPolicy;
+        } else {
+            userPolicy = policy3;
+        }
+        return 0;
     }
 }

@@ -11,10 +11,10 @@ package day2tutorialinsurance;
  */
 public class InsuranceConstants {
     public static double BASE_PREMIUM_1 = 100;
-    public static double BASE_PREMIUM_2 = 100;
-    public static double BASE_PREMIUM_3 = 100;
-    public static double PREMIUM_FACTOR_1 = 100;
-    public static double PREMIUM_FACTOR_2 = 100;
-    public static double PREMIUM_FACTOR_3 = 100;
+    public static double BASE_PREMIUM_2 = 120;
+    public static double BASE_PREMIUM_3 = 130;
+    public static double PREMIUM_FACTOR_1 = 1.6;
+    public static double PREMIUM_FACTOR_2 = 1.4;
+    public static double PREMIUM_FACTOR_3 = 1.2;
     
 }
