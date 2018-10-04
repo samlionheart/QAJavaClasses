@@ -9,26 +9,24 @@ package day3tutorialobjectsandclasses;
  *
  * @author Administrator
  */
-public class Square {
+public class Square extends Shape {
 
-    public final int NUMBER_OF_SIDES = 4;
-    private double sideA;
-    private String color;
-    
-    public Square(double sideA, String color){
-        this.sideA = sideA;
-        this.color = color;
+    public Square(double sideA) {
+        super(sideA);
     }
 
-    public double perimeter() {
-        return 4 * sideA;
-    }
-
-    public double area() {
-        return Math.pow(sideA, 2);
-    }
-        @Override
+    @Override
     public String toString() {
-        return "Square: Area : " + area() + " Perimeter : " + perimeter() + " and the side: " + sideA;
+        return "Square: Area : " + area() + " Perimeter : " + perimeter() + " and the side: " + lengthA;
+    }
+
+    @Override
+    public double area() {
+        return Math.pow(lengthA, 2);
+    }
+
+    @Override
+    public double perimeter() {
+        return 4 * lengthA;
     }
 }
