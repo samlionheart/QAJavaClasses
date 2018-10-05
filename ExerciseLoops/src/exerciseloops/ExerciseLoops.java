@@ -1,24 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package exerciseloops;
 
-import java.util.*;
-
-/**
- *
- * @author Administrator
- */
 public class ExerciseLoops {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //futureTuition(4);
         triangle(9);
     }
 
@@ -53,7 +37,7 @@ public class ExerciseLoops {
             System.out.println(i);
         }
     }
-    private static void passwordChecker(String p){
-        if(
-    }
+//    private static void passwordChecker(String p){
+//        if(
+
 }

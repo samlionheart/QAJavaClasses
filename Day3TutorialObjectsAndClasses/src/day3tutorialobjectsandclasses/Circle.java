@@ -27,7 +27,7 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle:  Area : " + area() + " Perimeter : " + perimeter() + " radius " + lengthA;
+        return "Circle:  Area : " + area() + " Perimeter : " + perimeter() + " Radius : " + lengthA;
     }
 
     @Override

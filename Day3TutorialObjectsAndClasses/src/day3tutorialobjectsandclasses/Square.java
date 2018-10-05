@@ -16,8 +16,18 @@ public class Square extends Shape {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (o instanceof Square) {
+            Square c = (Square) o;
+
+            return lengthA == c.lengthA;
+        }
+        return false;
+    }
+    
+    @Override
     public String toString() {
-        return "Square: Area : " + area() + " Perimeter : " + perimeter() + " and the side: " + lengthA;
+        return "Square: Area : " + area() + " Perimeter : " + perimeter() + " and the sides : " + lengthA;
     }
 
     @Override
